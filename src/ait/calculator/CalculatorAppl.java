@@ -24,12 +24,10 @@ public class CalculatorAppl {
     }
 
     public static double calculator(double a, double b, String oper) {
-
-        double res = 0.0;
+        double res;
         switch (oper) {
             case "add":
                 res = a + b;
-
                 break;
             case "sub":
                 res = a - b;
@@ -43,7 +41,6 @@ public class CalculatorAppl {
             default:
                 return 0;
         }
-
         return res;
     }
 
