@@ -39,7 +39,8 @@ public class CalculatorAppl {
                 res = a / b;
                 break;
             default:
-                return 0;
+                System.out.println("Wrong operation");
+                return 0./0;
         }
         return res;
     }
